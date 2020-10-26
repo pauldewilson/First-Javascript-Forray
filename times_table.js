@@ -20,9 +20,6 @@ function make_matrix(size=5){
     // returns a matrix of arrays default 5x5
 
     let init_list = []
-    
-    arr_x = make_array(size)
-    arr_y = make_array(size)
 
     for (var i=0; i < size; i++){
         if (i == 0){
